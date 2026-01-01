@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/demo_simple.dir/demos/demo_simple.cpp.o -o demos/demo_simple  -lraylib -lm -lpthread -ldl 

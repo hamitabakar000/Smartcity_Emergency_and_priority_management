@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/demo_emergency.dir/demos/demo_emergency.cpp.o CMakeFiles/demo_emergency.dir/src/vehicles/vehicle.cpp.o -o demos/demo_emergency  -lraylib -lm -lpthread -ldl 

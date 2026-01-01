@@ -1,0 +1,38 @@
+{
+    "metrics": {
+        "performance": {
+            "fps": "int",
+            "update_time": "float",
+            "draw_time": "float",
+            "memory_usage": "int"
+        },
+        "simulation": {
+            "total_vehicles": "int",
+            "civilian_vehicles": "int",
+            "emergency_vehicles": "int",
+            "active_emergencies": "int",
+            "completed_emergencies": "int",
+            "average_response_time": "float"
+        },
+        "vehicles": {
+            "ambulances": {
+                "idle": "int",
+                "on_mission": "int",
+                "returning": "int"
+            },
+            "police": {
+                "idle": "int",
+                "on_mission": "int",
+                "returning": "int"
+            },
+            "fire_trucks": {
+                "idle": "int",
+                "on_mission": "int",
+                "returning": "int"
+            }
+        }
+    },
+    
+    "export_formats": ["json", "csv", "txt"],
+    "auto_save_interval": 30.0
+}

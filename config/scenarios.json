@@ -1,0 +1,35 @@
+{
+    "scenarios": [
+        {
+            "name": "test_basique",
+            "description": "Scénario de test basique",
+            "emergencies": [
+                {"type": "medical", "position": {"x": 700, "y": 400}, "time": 5.0},
+                {"type": "fire", "position": {"x": 1000, "y": 300}, "time": 10.0},
+                {"type": "accident", "position": {"x": 500, "y": 600}, "time": 15.0}
+            ],
+            "civilian_count": 20,
+            "duration": 60.0
+        },
+        {
+            "name": "urgence_majeure",
+            "description": "Plusieurs urgences simultanées",
+            "emergencies": [
+                {"type": "fire", "position": {"x": 400, "y": 300}, "time": 2.0},
+                {"type": "medical", "position": {"x": 800, "y": 500}, "time": 2.0},
+                {"type": "security", "position": {"x": 600, "y": 200}, "time": 2.0}
+            ],
+            "civilian_count": 30,
+            "duration": 45.0
+        },
+        {
+            "name": "trafic_intense",
+            "description": "Test avec beaucoup de véhicules civils",
+            "emergencies": [
+                {"type": "accident", "position": {"x": 700, "y": 450}, "time": 8.0}
+            ],
+            "civilian_count": 50,
+            "duration": 40.0
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "keyboard_controls": {
+        "spawn_emergency_fire": "F1",
+        "spawn_emergency_medical": "F2",
+        "spawn_emergency_police": "F3",
+        "spawn_emergency_accident": "F4",
+        "reset_simulation": "R",
+        "pause_simulation": "SPACE",
+        "increase_speed": "UP",
+        "decrease_speed": "DOWN",
+        "toggle_fullscreen": "F11",
+        "quit": "ESCAPE"
+    },
+    
+    "mouse_controls": {
+        "place_emergency": "LEFT_CLICK",
+        "camera_pan": "MIDDLE_CLICK_DRAG",
+        "camera_zoom": "MOUSE_WHEEL",
+        "select_vehicle": "RIGHT_CLICK"
+    },
+    
+    "ui_hotkeys": {
+        "toggle_stats": "TAB",
+        "toggle_grid": "G",
+        "toggle_traffic_lights": "L",
+        "toggle_vehicle_labels": "V",
+        "toggle_emergency_zones": "Z"
+    }
+}

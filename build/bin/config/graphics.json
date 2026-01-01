@@ -1,0 +1,38 @@
+{
+    "render_settings": {
+        "antialiasing": true,
+        "vsync": true,
+        "msaa_samples": 4,
+        "texture_filtering": "bilinear"
+    },
+    
+    "colors": {
+        "road_color": [60, 60, 60, 255],
+        "building_colors": [
+            [90, 130, 90, 255],
+            [80, 120, 80, 255],
+            [100, 140, 100, 255],
+            [85, 125, 85, 255],
+            [95, 135, 95, 255]
+        ],
+        "lane_marker_color": [255, 255, 0, 255],
+        "background_color": [35, 75, 35, 255],
+        "ui_background": [0, 0, 0, 200],
+        "ui_text": [255, 255, 255, 255]
+    },
+    
+    "effects": {
+        "vehicle_lights": true,
+        "emergency_flashing": true,
+        "building_windows": true,
+        "road_markers": true,
+        "shadow_effects": false
+    },
+    
+    "debug_visualization": {
+        "show_paths": false,
+        "show_node_grid": false,
+        "show_collision_boxes": false,
+        "show_traffic_light_zones": false
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "logging": {
+        "enabled": true,
+        "level": "INFO",  # DEBUG, INFO, WARNING, ERROR
+        "console_output": true,
+        "file_output": true,
+        "log_file": "smart_city.log",
+        "max_file_size_mb": 10,
+        "max_backup_files": 5
+    },
+    
+    "events_to_log": {
+        "emergency_created": true,
+        "emergency_assigned": true,
+        "emergency_resolved": true,
+        "vehicle_spawned": false,
+        "vehicle_despawned": false,
+        "traffic_light_changed": false,
+        "user_interaction": true,
+        "simulation_reset": true,
+        "error_events": true
+    },
+    
+    "performance_logging": {
+        "log_fps": true,
+        "log_memory": false,
+        "log_update_times": false,
+        "log_draw_times": false,
+        "sampling_interval": 5.0  # secondes
+    },
+    
+    "export_settings": {
+        "export_on_exit": true,
+        "auto_export_interval": 300,  # secondes
+        "export_format": "json"  # json, csv, both
+    }
+}

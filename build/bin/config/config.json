@@ -1,0 +1,68 @@
+{
+    "window_settings": {
+        "width": 1400,
+        "height": 900,
+        "title": "Smart City - Emergency Command Center",
+        "target_fps": 60,
+        "fullscreen": false,
+        "resizable": true
+    },
+    
+    "simulation_settings": {
+        "grid_size": 7,
+        "cell_size": 120,
+        "road_width": 60,
+        "max_vehicles": 60,
+        "civilian_spawn_rate": 2.0,
+        "emergency_scene_duration": 5.0,
+        "emergency_clear_timeout": 7.0
+    },
+    
+    "vehicle_settings": {
+        "ambulance": {
+            "base_speed": 3.5,
+            "color": [255, 255, 255, 255],
+            "spawn_count": 2
+        },
+        "police": {
+            "base_speed": 4.0,
+            "color": [0, 121, 241, 255],
+            "spawn_count": 2
+        },
+        "fire_truck": {
+            "base_speed": 3.2,
+            "color": [230, 41, 55, 255],
+            "spawn_count": 2
+        },
+        "civilian": {
+            "min_speed": 2.2,
+            "max_speed": 3.0,
+            "colors": [
+                [40, 70, 140, 255],
+                [140, 40, 40, 255],
+                [40, 140, 40, 255],
+                [140, 140, 40, 255],
+                [100, 40, 140, 255],
+                [140, 80, 40, 255]
+            ]
+        }
+    },
+    
+    "traffic_light_settings": {
+        "green_duration": 6.0,
+        "yellow_duration": 2.0,
+        "emergency_override_duration": 4.0
+    },
+    
+    "emergency_settings": {
+        "detection_range": 120,
+        "arrival_threshold": 35,
+        "traffic_light_trigger_range": 150
+    },
+    
+    "building_positions": {
+        "hospital": {"x": 80, "y": 80},
+        "police_station": {"x": 1220, "y": 80},
+        "fire_station": {"x": 80, "y": 720}
+    }
+}

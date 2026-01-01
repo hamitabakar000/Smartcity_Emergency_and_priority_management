@@ -1,0 +1,32 @@
+{
+    "unit_tests": {
+        "vehicle_tests": {
+            "test_position_calculations": true,
+            "test_path_finding": true,
+            "test_emergency_response": true,
+            "test_collision_detection": true
+        },
+        "traffic_light_tests": {
+            "test_light_cycles": true,
+            "test_emergency_override": true,
+            "test_state_transitions": true
+        },
+        "simulation_tests": {
+            "test_vehicle_spawning": true,
+            "test_emergency_creation": true,
+            "test_reset_functionality": true
+        }
+    },
+    
+    "integration_tests": {
+        "vehicle_traffic_light_interaction": true,
+        "emergency_vehicle_assignment": true,
+        "multiple_emergencies_handling": true
+    },
+    
+    "performance_tests": {
+        "max_vehicles_stress_test": 100,
+        "multiple_emergencies_test": 10,
+        "long_duration_test": 300
+    }
+}
